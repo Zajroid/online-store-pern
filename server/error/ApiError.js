@@ -1,6 +1,6 @@
 class ApiError extends Error {
     constructor(status, message) {
-        super();
+        super(); // extends error
         this.status = status
         this.message = message
     }
@@ -17,3 +17,5 @@ class ApiError extends Error {
         return new ApiError(403, message)
     }
 }
+
+module.exports = ApiError
