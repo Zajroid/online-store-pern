@@ -1,0 +1,21 @@
+### TYPE
+###
+GET http://localhost:7000/api/type
+Content-Type: application/json
+
+
+
+### BRAND
+###
+POST http://localhost:7000/api/brand
+Content-Type:  application/json
+
+{
+  "name": "#322"
+}
+###
+GET http://localhost:7000/api/brand
+
+### USER
+###
+GET http://localhost:7000/api/user/
